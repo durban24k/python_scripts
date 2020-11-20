@@ -5,4 +5,4 @@ with open("test.csv","w",newline='') as f:
 
      thewriter.writeheader()
      for i in range(1,100):
-          thewriter.writerow({'column1':'one','column2':'two','column3':'three'})
+          thewriter.writerow({'column1':'one','column2':'two','column3':'three'}) 
