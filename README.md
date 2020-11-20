@@ -1,8 +1,8 @@
-OPEN WEATHER API DOCUMENTATION
+OPEN WEATHER API DOCUMENTATION \n
 <!-- FREE API KEY examples -->
-from pyowm import OWM
-from pyowm.utils import config
-from pyowm.utils import timestamps
+from pyowm import OWM \n
+from pyowm.utils import config\n
+from pyowm.utils import timestamps\n
 
 # ---------- FREE API KEY examples ---------------------
 
