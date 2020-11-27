@@ -5,7 +5,6 @@ import os
 
 def downloadVideo():
      yt_url=input('Please paste the URL of the video you wish to download: ')
-
      try:
           if type(yt_url)==str:
                yt_video=YouTube(yt_url,on_progress_callback=on_progress)
@@ -19,4 +18,5 @@ def downloadVideo():
      else:
           print("Download Successfull!!")
 
-downloadVideo()
+if __name__== '__main__':
+     downloadVideo()
