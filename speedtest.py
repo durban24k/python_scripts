@@ -19,4 +19,3 @@ while(True):
     else:
         print("Please choose an option !!")
         continue
-    
